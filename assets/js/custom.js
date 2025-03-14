@@ -34,6 +34,25 @@ var swiperBanner = new Swiper(".hero-section .swiper", {
     },
     simulateTouch: true, 
     grabCursor: true,
+    breakpoints: {
+        1300:{
+            slidesPerView: 3,
+        },
+        1045: { 
+            slidesPerView: 2.5,
+        },
+        768: { 
+            slidesPerView: 2,
+        },
+
+        567: { 
+            slidesPerView: 1.5,
+        },
+
+        300: { 
+            slidesPerView: 1,
+        }
+    }
 });
 
 
