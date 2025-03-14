@@ -434,13 +434,13 @@ header .mobile-menu .nav-item:nth-last-child(2) {
 }
 
 .featured-service .btn-secondary.dropdown-toggle::after {
-  font-size: 25px;
   display: inline-block;
-  width: 0;
-  height: 0;
-  border-left: 10px solid transparent;
-  border-right: 10px solid transparent;
-  border-top: 10px solid #ff813b;
+  width: 10px;
+  height: 10px;
+  margin-left: 0.5em;
+  border: solid #ff813b;
+  border-width: 0 2px 2px 0;
+  transform: rotate(46deg);
 }
 
 .featured-service .headline-wrap {
