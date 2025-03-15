@@ -136,6 +136,9 @@
     .our-feature .pb-100 {
         padding-bottom: 29px;
     }
+    .our-feature  .sub-title{
+        margin-bottom: 20px;
+    }
 }
 
 @media (max-width: 568px) {
@@ -157,6 +160,9 @@
     .hero-section .swiper-button-next,
     .hero-section .swiper-button-prev {
         display: none;
+    }
+   .our-feature figure + p{
+        font-size: 12px;
     }
 }
 
