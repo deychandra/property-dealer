@@ -198,6 +198,10 @@
     footer h3 {
         margin-bottom: 2px;
     }
+    .sub-heading {
+        font-size: 20px;
+        line-height: normal;
+    }
 }
 
 @media (max-width: 400px) {
