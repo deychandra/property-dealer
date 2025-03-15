@@ -179,6 +179,6 @@
     }
 
     .mobile-menu {
-        height: calc(100vh - 87px);
+        top: 86px;
     }
 }
