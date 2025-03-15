@@ -653,13 +653,7 @@ header .mobile-menu .nav-item:nth-last-child(2) {
   margin-bottom: 40px;
 }
 
-.news-room img {
-  aspect-ratio: 131 / 90;
-  height: 90px;
-  margin-top: 10px;
-  margin-bottom: 20px;
-  object-fit: contain;
-}
+
 
 .news-room p {
   color: #212529bf;
@@ -696,6 +690,16 @@ header .mobile-menu .nav-item:nth-last-child(2) {
 
 .news-room .swiper-scrollbar-drag {
   background-color: #542686 !important;
+}
+
+.news-room .news-room-mobile{
+  display: none;
+}
+.news-room img{
+  aspect-ratio: 131 / 90;
+    height: 90px;
+    margin-top: 10px;
+    margin-bottom: 20px;
 }
 
 /*====News-Room====*/

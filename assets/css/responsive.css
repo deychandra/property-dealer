@@ -21,6 +21,12 @@
         line-height: 17px;
         max-width: 293px;
     }
+    .news-room .news-room-scroll {
+        display: none;
+    }
+    .news-room .news-room-mobile{
+        display: block;
+      }
 }
 
 
@@ -75,7 +81,7 @@
         border: 0;
     }
 
-    .sub-heading,
+   .featured-service .sub-heading,
     .featured-service .btn-secondary,
     .featured-service .btn-secondary:focus {
         font-size: 27px;
@@ -109,7 +115,7 @@
 
 @media (max-width: 568px) {
 
-    .sub-heading,
+    .featured-service .sub-heading,
     .featured-service .btn-secondary,
     .featured-service .btn-secondary:focus {
         font-size: 16px;
@@ -131,9 +137,11 @@
 
 @media (max-width: 400px) {
 
-    .sub-heading,
+    .featured-service .sub-heading,
     .featured-service .btn-secondary,
     .featured-service .btn-secondary:focus {
         font-size: 12px;
     }
+    header .top-bar span {
+        font-size: 12px;}
 }
