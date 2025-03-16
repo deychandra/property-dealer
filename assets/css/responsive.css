@@ -56,8 +56,18 @@
         padding: 0 15px;
     }
 
-    .mobile-menu.show-mobile-menu {
+    .open-mobile-menu.show-mobile-menu + .mobile-menu{
         display: block;
+    }
+    
+    .open-mobile-menu  .close{
+        display: none;
+    }
+    .open-mobile-menu.show-mobile-menu .open{
+    display: none;
+    }
+    .open-mobile-menu.show-mobile-menu .close{
+       display: block;
     }
 
     .search-bx .input-bx {

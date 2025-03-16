@@ -1,5 +1,5 @@
 document.querySelector(".menu-icon").addEventListener("click", function() {
-    document.querySelector(".mobile-menu").classList.toggle("show-mobile-menu");
+    document.querySelector(".open-mobile-menu").classList.toggle("show-mobile-menu");
 });
 
 
